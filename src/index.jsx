@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import Counter from './counter/Counter';
+import LoginApp from './Login/LoginApp';
+// import {FormLog} from './form/Form';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <Counter maxNum = '20' step= '2'/> */}
+    <LoginApp />
+    {/* <FormLog /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
