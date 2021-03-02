@@ -14,13 +14,20 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: 
-  linear-gradient(to right, rgba(16, 78, 122, 0.4), rgb(110, 190, 247, .4), rgb(50, 77, 103, .4)), url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
-  background-position: top;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
 
+  /***BACKGROUND FOR COUNTER, FORM, LOGIN***/
+  /* background-image: 
+  linear-gradient(to right, rgba(16, 78, 122, 0.4), rgb(110, 190, 247, .4), rgb(50, 77, 103, .4)), url('./img/544750.jpg'); */
+  /* background-position: top; */
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+
+  /***BACKGROUND FOR TODOLIST***/
+
+  background-image: linear-gradient(to right, rgb(182, 104, 178), #6faeb9);
+
+ 
 }
 
 #root {
@@ -28,4 +35,8 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100%;
+}
+
+ul {
+  list-style: none;
 }

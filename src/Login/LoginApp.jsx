@@ -9,12 +9,12 @@ const FormBox = styled.form`
 width: 320px;
 padding: 20px 30px;
 background-color: rgba(225, 225, 225, .75);
+box-shadow: 0 0 6px 1px #243a52;
 border-radius: 3px;
 margin: 27px auto;
 display: flex;
 flex-direction: column;
 align-items: center;
-box-shadow: 0 0 6px 1px #243a52;
 `
 const RememberBox = styled.div`
 display: flex;
